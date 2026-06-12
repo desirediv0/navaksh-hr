@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #0F172A;
+  --diced-hero-section-top-text: #2c3e50;
+  --diced-hero-section-main-gradient-from: #16a085;
+  --diced-hero-section-main-gradient-to: #2980b9;
+  --diced-hero-section-main-gradient-foreground: #16a085;
+  --diced-hero-section-separator: #005baa;
+  --diced-hero-section-sub-text: #34495e;
+  --diced-hero-section-button-bg: #27ae60;
+  --diced-hero-section-button-fg: #ffffff;
+  --diced-hero-section-button-hover-bg: #2ecc71;
+  --diced-hero-section-button-hover-fg: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40 shadow-glass;
+  }
+  
+  .glass-card {
+    @apply bg-white/40 backdrop-blur-md border border-white/20 shadow-glass hover:bg-white/60 transition-all duration-300;
+  }
+
+  .luxury-shadow {
+    @apply shadow-premium hover:shadow-premium-hover transition-shadow duration-500;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-primary to-brand-secondary;
+  }
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #18A6D9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4330A3;
+}
+
+/* Custom Selection */
+::selection {
+  background-color: #4330A3;
+  color: #ffffff;
+}
+
+/* Base resets for animations */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
