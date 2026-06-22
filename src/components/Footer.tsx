@@ -146,15 +146,24 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#18A6D9] flex-shrink-0 mt-0.5" />
-                <span>
-                  441 Ground Floor,
-                  <br />
-                  Adarsh Apartment, Pocket-16,
-                  <br />
-                  Sector-3, Dwarka,
-                  <br />
-                  New Delhi – 110075
-                </span>
+                <div className="flex flex-col gap-3">
+                  <div>
+                    <span className="text-[10px] font-bold text-white/50 uppercase tracking-wider block mb-0.5">Corporate Office</span>
+                    <span className="text-sm">
+                      Office No UG 31, Upper Ground Floor,<br />
+                      Suneja Tower 2, District Centre Janakpuri,<br />
+                      New Delhi - 110058
+                    </span>
+                  </div>
+                  <div className="border-t border-slate-800/80 pt-2">
+                    <span className="text-[10px] font-bold text-white/50 uppercase tracking-wider block mb-0.5">Registered Office</span>
+                    <span className="text-sm">
+                      441 Ground Floor, Adarsh Apartment,<br />
+                      Pocket-16, Sector-3, Dwarka,<br />
+                      New Delhi – 110075
+                    </span>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>

@@ -11,7 +11,17 @@ export const metadata: Metadata = {
 const contactInfo = [
   {
     icon: MapPin,
-    title: "Corporate Address",
+    title: "Corporate Office Address",
+    lines: [
+      "Office No UG 31, Upper Ground Floor,",
+      "Suneja Tower 2, District Centre Janakpuri,",
+      "New Delhi - 110058"
+    ],
+    action: null,
+  },
+  {
+    icon: MapPin,
+    title: "Registered Office Address",
     lines: [
       "441 Ground Floor, Adarsh Apartment,",
       "Pocket-16 Sector-3, Dwarka,",
@@ -188,7 +198,7 @@ export default function ContactPage() {
               {/* Google Map embed inside Info Card */}
               <div className="rounded-2xl overflow-hidden border border-brand-accent/50 h-[300px] relative shadow-soft">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.9734151741584!2d77.03606627622839!3d28.600570375681145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ad922ff1ad7%3A0xe54fb7a2c07ef90!2sSector%203%2C%20Dwarka%2C%20Delhi!5e0!3m2!1sen!2sin!4v1716000000000!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.905187214958!2d77.07727147631317!3d28.63257327566415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04bf5e59b2db%3A0x67db23fd6c968f9a!2sSuneja+Tower-II!5e0!3m2!1sen!2sin!4v1716000000000!5m2!1sen!2sin"
                   width="100%" height="100%"
                   style={{ border: 0 }}
                   allowFullScreen loading="lazy"

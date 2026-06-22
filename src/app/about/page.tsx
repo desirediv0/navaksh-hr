@@ -55,7 +55,20 @@ const leaders = [
     role: "Founder & Managing Director",
     qual: "MBA (International Business Management)",
     experience: "20+ Years of Experience",
-    bio: "Himanshu Rai is the Founder and Managing Director of Navaksh HR Management Private Limited, bringing over 20 years of extensive experience in Human Resources, Recruitment, Workforce Management, Payroll Administration, Compliance Management, Business Development, and Operations.",
+    bio: (
+      <>
+        Himanshu Rai is the Founder and Managing Director of Navaksh HR Management Private Limited and{" "}
+        <a
+          href="https://passionhr.in"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#18A6D9] hover:underline font-semibold"
+        >
+          Passion HR Services Pvt. Ltd.
+        </a>
+        , bringing over 20 years of extensive experience in Human Resources, Recruitment, Workforce Management, Payroll Administration, Compliance Management, Business Development, and Operations.
+      </>
+    ),
     highlights: "He has successfully led HR and administration functions across reputed organizations including Passion HR Services Pvt. Ltd., Watermelon Management Services Ltd., Million Minds Management Services Ltd., DTDC Institute of Supply Chain Management, T2P Consultants Ltd., and DTDC Courier & Cargo Ltd. His expertise spans talent acquisition, client relationship management, workforce planning, compliance, payroll management, training & development, MIS reporting, and business operations. With strong leadership and strategic management capabilities, he has played a key role in building scalable workforce solutions and delivering exceptional value to clients across multiple industries.",
   },
   {
@@ -327,15 +340,14 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8 mt-12">
             {leaders.map((member, index) => (
               <div key={member.name} className="group overflow-hidden bg-slate-50 border border-slate-200/60 rounded-xl p-6 hover:shadow-xl transition-all duration-300">
-                {/* Grayscale hover to color image */}
+                {/* Color image */}
                 <div className="relative w-full aspect-[4/5] rounded-lg overflow-hidden border border-slate-200 mb-4">
                   <Image
                     src={index === 0 ? "/himanshu.jpg" : "/om-shankar.jpg"}
                     alt={member.name}
                     fill
-                    className="object-cover object-center grayscale hover:grayscale-0 group-hover:scale-102 transition-all duration-500"
+                    className="object-cover object-center group-hover:scale-102 transition-all duration-500"
                   />
-                  <div className="absolute inset-0 bg-[#0F172A]/10 group-hover:bg-transparent transition-colors duration-300" />
                 </div>
 
                 <div className="px-1 pt-2">
