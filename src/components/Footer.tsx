@@ -172,6 +172,17 @@ export default function Footer() {
         {/* ── BOTTOM BAR ── */}
         <div className="mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-light text-slate-500">
           <p>© {currentYear} Navaksh HR Management Pvt. Ltd. All Rights Reserved.</p>
+          <p className="font-light text-slate-500">
+            Designed & Developed by{" "}
+            <a
+              href="https://desirediv.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#18A6D9] transition-colors text-slate-400 font-semibold"
+            >
+              Desire Div
+            </a>
+          </p>
 
         </div>
       </div>
