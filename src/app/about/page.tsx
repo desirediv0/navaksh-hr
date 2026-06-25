@@ -36,9 +36,9 @@ const values = [
 
 const milestones = [
   { year: "2006", event: "Founders entered the workforce operations and Courier Logistics sectors, managing massive teams." },
-  { year: "2012", event: "Expanded operations into executive recruitment, Passion HR Services, and corporate consulting." },
-  { year: "2018", event: "Reached major milestone of managing 5,000+ outsourced personnel warehousing and BPOs." },
-  { year: "2022", event: "Incorporated Navaksh HR Management Pvt. Ltd., consolidating two decades of workforce excellence." },
+  { year: "2017", event: "Expanded operations into executive recruitment, Passion HR Services, and corporate consulting." },
+  { year: "2021", event: "Reached major milestone of managing 5,000+ outsourced personnel warehousing and BPOs." },
+  { year: "2025", event: "Incorporated Navaksh HR Management Pvt. Ltd., consolidating two decades of workforce excellence." },
   { year: "2026", event: "Recognized as India's trusted workforce partner managing 10,000+ associates and 500+ client locations." },
 ];
 
