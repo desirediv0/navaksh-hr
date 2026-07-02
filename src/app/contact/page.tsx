@@ -13,8 +13,8 @@ const contactInfo = [
     icon: MapPin,
     title: "Corporate Office Address",
     lines: [
-      "Office No UG 31, Upper Ground Floor,",
-      "Suneja Tower 2, District Centre Janakpuri,",
+      "1109, 11th Floor, Kirti Shikhar Building,",
+      "District Centre, Janakpuri,",
       "New Delhi - 110058"
     ],
     action: null,
@@ -198,7 +198,7 @@ export default function ContactPage() {
               {/* Google Map embed inside Info Card */}
               <div className="rounded-2xl overflow-hidden border border-brand-accent/50 h-[300px] relative shadow-soft">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.167039978588!2d77.07565109678954!3d28.628456000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04bf429f8a99%3A0xa14c8497796f5077!2sJebla%20Construction%2C%20305%2C%20Suneja%20Tower-2!5e1!3m2!1sen!2sin!4v1782120899878!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9934988451877!2d77.0850239!3d28.6299839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04bf46261f71%3A0xe54d3148cf491024!2sKirti%20Shikhar%20Building!5e0!3m2!1sen!2sin!4v1782120899878!5m2!1sen!2sin"
                   width="100%" height="100%"
                   style={{ border: 0 }}
                   allowFullScreen loading="lazy"

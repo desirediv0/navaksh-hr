@@ -150,8 +150,8 @@ export default function Footer() {
                   <div>
                     <span className="text-[10px] font-bold text-white/50 uppercase tracking-wider block mb-0.5">Corporate Office</span>
                     <span className="text-sm">
-                      Office No UG 31, Upper Ground Floor,<br />
-                      Suneja Tower 2, District Centre Janakpuri,<br />
+                      1109, 11th Floor, Kirti Shikhar Building,<br />
+                      District Centre, Janakpuri,<br />
                       New Delhi - 110058
                     </span>
                   </div>
